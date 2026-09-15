@@ -33,5 +33,4 @@ To stop both recorded project processes:
 powershell.exe -ExecutionPolicy Bypass -File scripts\stop-local.ps1
 ```
 
-For stable credentials in a private development environment, copy `.env.example` to `.env` and set a strong `BOOTSTRAP_PASSWORD` before creating the database. Never deploy the bootstrap login mechanism.
 
