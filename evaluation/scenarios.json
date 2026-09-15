@@ -1,0 +1,10 @@
+[
+  {"id":"northstar-flagship","user":"ananya","threshold":15,"as_of":"2026-07-15","products":["p1","p2"],"status":"complete"},
+  {"id":"strict-threshold","user":"ananya","threshold":20,"as_of":"2026-07-15","products":["p1"],"status":"complete"},
+  {"id":"no-declines","user":"ananya","threshold":90,"as_of":"2026-07-15","products":[],"status":"complete"},
+  {"id":"missing-period","user":"ananya","threshold":15,"as_of":"2025-07-15","products":[],"status":"insufficient_evidence"},
+  {"id":"other-organization","user":"kavya","threshold":15,"as_of":"2026-07-15","products":["p1","p2"],"status":"complete"},
+  {"id":"support-denied","user":"rahul","threshold":15,"as_of":"2026-07-15","http_status":403},
+  {"id":"finance-denied","user":"meera","threshold":15,"as_of":"2026-07-15","http_status":403},
+  {"id":"admin-not-data-reader","user":"arjun","threshold":15,"as_of":"2026-07-15","http_status":403}
+]
